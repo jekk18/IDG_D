@@ -1,0 +1,564 @@
+@media (max-width:1399px){
+    .font-18{
+        font-size: 16px;
+    }
+    .font-20{
+        font-size: 18px;
+    }
+    .font-24{
+        font-size: 22px;
+    }
+    .font-22{
+      font-size: 20px;
+    }
+    .font-30{
+        font-size: 28px;
+    }
+    .font-34{
+        font-size: 32px;
+    }
+    .font-36{
+        font-size: 34px;
+    }
+    .line-26{
+        line-height: 24px;
+    }
+    .line-28{
+        line-height: 26px;
+    }
+    .line-30{
+        line-height: 28px;
+    }
+    .line-34{
+        line-height: 30px;
+    }
+    .line-38{
+        line-height: 36px;
+    }
+    .line-42{
+        line-height: 40px;
+    }
+    .line-50{
+        line-height: 48px;
+    }
+    .header .menu-side .wrap_nav .menu li a{
+        padding: 0 20px;
+    }
+    .header .menu-side .quote a{
+        height: 45px;
+    }
+    .header .menu-side .search, .header .menu-side .lang{
+        padding: 0 20px;
+    }
+    .home-about-text .text{
+        max-height: 208px;
+    }
+    .section-p{
+        padding: 80px 0;
+    }
+    
+    .home-about .title, .home-about-text .title{
+        margin-bottom: 50px;
+    }
+    .home-about .info-row .wedo a{
+        width: 47%;
+    }
+    .home-about .info-row{
+        padding-bottom: 40px;
+        margin-bottom: 30px;
+    }
+    .home-about-text .bricks .brick strong{
+        font-size: 55px;
+    }
+    .testimonial-section{
+        padding: 80px 0;
+    }
+    .link{
+        margin-top: 60px;
+    }
+    .footer .footer-menu .footer-nav .row {
+        width: 55%;
+    }
+    .projects .project-title .project-menu button{
+        margin: 0 5px;
+        padding: 10px 30px;
+    }
+    .projects .project-card {
+        padding-top: 75px;
+    }
+    .projects .project-card a {
+        padding: 0 55px 0 55px;
+    }
+    .projects .project-card a .image{
+        height: 602px;
+    }
+    .projects .row{
+        padding-bottom: 140px;
+    }
+    .faq{
+        padding: 80px 0 80px 0;
+    }
+    .faq .accordion .accordion-item{
+        margin-bottom: 18px;
+    }
+    .footer .footer-information span {
+        font-size: 55px;
+    }
+    .footer .footer-menu .footer-logo a img{
+        width: 50%;
+        height: 100%;
+    }
+    .footer{
+        padding: 80px 0;
+    }
+
+    /* Contact */
+    .contact-page .contact-info{
+        padding: 94px 0 60px 100px;
+    }
+    /* Contact */
+
+    /* News Inner */
+    .image-section{
+        padding: 80px 0 0 0;
+    }
+    /* News Inner */
+    /* Text Page */
+
+    .text-page-cover .team-label .team-title{
+        right: 0;
+    }
+    .team .team-slider .slide .person-image{
+        width: 200px;
+        height: 200px;
+    }
+    /* Text Page */
+}
+
+
+@media (max-width:1199px){
+    .font-18{
+        font-size: 14px;
+    }
+    .font-20{
+        font-size: 16px;
+    }
+    .font-24{
+        font-size: 20px;
+    }
+    .font-22{
+      font-size: 18px;
+    }
+    .font-30{
+        font-size: 26px;
+    }
+    .font-34{
+        font-size: 30px;
+    }
+    .font-36{
+        font-size: 32px;
+    }
+    .line-26{
+        line-height: 22px;
+    }
+    .line-28{
+        line-height: 24px;
+    }
+    .line-30{
+        line-height: 26px;
+    }
+    .line-34{
+        line-height: 30px;
+    }
+    .line-38{
+        line-height: 36px;
+    }
+    .line-42{
+        line-height: 40px;
+    }
+    .line-50{
+        line-height: 48px;
+    }
+    .header .menu-side .wrap_nav .menu li a{
+        padding: 0 18px;
+    }
+    .header .menu-side .quote a{
+        height: 45px;
+    }
+    .header .menu-side .search, .header .menu-side .lang{
+        padding: 0 18px;
+    }
+    .main-banner {
+        height: 430px;
+    }
+    .home-about-text .text{
+        max-height: 208px;
+    }
+    .section-p{
+        padding: 60px 0;
+    }
+    .home-about .title, .home-about-text .title{
+        margin-bottom: 40px;
+    }
+    .home-about .info-row .wedo a{
+        width: 49%;
+    }
+    .home-about .info-row{
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+    }
+    .home-about-text .bricks .brick strong{
+        font-size: 55px;
+    }
+    .testimonial-section{
+        padding: 60px 0;
+    }
+    .link{
+        margin-top: 40px;
+    }
+    .footer .footer-menu .footer-nav .row {
+        width: 60%;
+    }
+    .projects .project-title .project-menu button{
+        margin: 0 5px;
+        padding: 10px 30px;
+    }
+    .projects .project-card {
+        padding-top: 65px;
+    }
+    .projects .project-card a {
+        padding: 0 40px 0 40px;
+    }
+    .projects .project-card a .image{
+        height: 502px;
+    }
+    .projects .row{
+        padding-bottom: 120px;
+    }
+    .faq{
+        padding: 60px 0 60px 0;
+    }
+    .faq .accordion .accordion-item{
+        margin-bottom: 18px;
+    }
+    .footer .footer-information span {
+        font-size: 50px;
+    }
+    .footer .footer-menu .footer-logo a img{
+        width: 55%;
+        height: 100%;
+    }
+    .footer{
+        padding: 60px 0;
+    }
+
+
+    /*  Contact */
+    .contact-page .contact-info {
+        padding: 74px 0 50px 80px;
+    }
+    .send-message{
+        padding: 60px 0;
+    }
+    /* Contact */
+
+    .image-section{
+        padding: 60px 0 0 0;
+    }
+    .inner-banner .banner-content .title{
+        padding: 0 15px;
+    }
+    .inner-banner .banner-content .title h2{
+        margin-bottom: 50px;
+    }
+    .inner-banner .banner-content .title a{
+        padding: 14px 50px;
+    }
+    .add-font{
+        font-size: 26px;
+    }
+    .service .service-info{
+        padding-left: 70px;
+    }
+    /* Text Page */
+    .team .team-slider .slide .person-image{
+        width: 170px;
+        height: 170px;
+    }
+    .team{
+        padding: 100px 0 80px 0;
+    }
+    .brick-row .brick-column .brick {
+        width: 200px;
+        height: 160px;
+        margin-bottom: 40px;
+    }
+    .brick-row .brick-column .brick strong {
+        font-size: 60px;
+    }
+    /* Text Page */
+}
+
+@media (max-width:990px){
+    .font-30{
+        font-size: 22px;
+    }
+    .line-42{
+        line-height: 32px;
+    }
+    /* 
+        Burger Menu
+    */
+    header{
+        height: 120px;
+    }
+   .header .burger-menu{
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        background: #F8F8F8;
+        z-index: 555;
+        transition: 0.4s;
+        display: block;
+    }
+    .burger-menu.active{
+        right: 0;
+    }
+    .burger-lines{
+        position: fixed;
+        top: 51px;
+        right: 6%;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        transition: 0.4s;
+        overflow-x: hidden;
+    }
+    .burger-line {
+        width: 100%;
+        height: 4px;
+        background: #127F94;
+        border-radius: 5px;
+        transition: 0.4s;
+    }
+    .burger-line:nth-child(2){
+        margin: 4px 0;
+    }
+    .burger-menu.active .burger-line:first-child {
+        transform: translate(-2px, 12px) rotate(45deg);
+    }
+    .burger-menu.active .burger-line:last-child {
+        transform: translate(-2px, -4px) rotate(-45deg);
+    }
+    .burger-menu.active .burger-line:nth-child(2){
+        transform: translateX(-35px);
+    }
+    .fixL{
+        position: initial;
+    }
+    .burger-links{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .burger-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .burger-search{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+    .burg-search{
+        margin: 0 30px;
+    }
+
+    /*  Burger Menu */
+     
+   .header{
+        position: fixed;
+        background: #fff;
+        z-index: 999;
+    }
+    .addShadow{
+        box-shadow: 0px 6px 15px -7px rgb(0 0 0 / 50%);
+    }
+    .header .logo img{
+        width: 100%;
+    }
+    .header .menu-side{
+        display: none;
+    }
+    .main-banner {
+        height: 350px;
+        /* margin-top: 120px; */
+    }
+    .tabcontent{
+        padding: 40px 30px;
+    }
+    .tabcontent .logo{
+        max-width: 230px;
+        height: 80px;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+    .footer {
+        padding: 40px 0;
+    }
+    .footer .footer-menu .footer-nav .row {
+        width: 80%;
+    }
+    .footer .footer-menu .footer-logo a img{
+        width: 60%;
+        height: 100%;
+    }
+    .footer .footer-information span {
+        font-size: 45px;
+    }
+    .bottom-footer{
+        height: 73px;
+    }
+    .projects .project-title{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .project-menu{
+        margin-top: 30px;
+    }
+    .projects .project-card {
+        padding-top: 50px;
+    }
+    .projects .project-card a {
+        padding: 0 30px 0 30px;
+    }
+    .projects .project-card a .image{
+        height: 402px;
+    }
+    .projects .row {
+        padding-bottom: 100px;
+    }
+    .section-p, .testimonial-section{
+        padding: 40px 0;
+        padding-bottom: 47px;
+    }
+    .faq {
+        padding: 40px 0 47px 0;
+    }
+    .clients .client-card{
+        height: 100px;
+        margin-top: 40px;
+    }
+    .clients .client-card img {
+        width: 85%;
+    }
+    .tab button {
+        padding-left: 45px;
+    }
+
+    /* Blog */
+    .subscribe-section .subscribe .title h3{
+        font-size: 50px;
+    }
+    .subscribe-section .subscribe .title{
+        margin-bottom: 40px;
+    }
+    .subscribe-section .subscribe{
+        padding: 70px 0 80px 0;
+
+    }
+    /* Blog */
+
+    /*  Search */
+
+    .search-section {
+        padding: 50px 0 80px 0;
+        /* margin-top: 120px; */
+    }
+    /* Search */
+
+    /* Text Page */
+    .team .team-slider .slide .person-image{
+        width: 125px;
+        height: 125px;
+    }
+    .text-page-cover .team-label .team-title {
+        width: 520px;
+        height: 180px;
+    }
+    .team {
+        padding: 120px 0 60px 0;
+    }
+    .brick-row .brick-column .brick{
+        width: 180px;
+        height: 140px;
+        margin-bottom: 40px;
+    }
+    .brick-row .brick-column .brick strong{
+        font-size: 50px;
+    }
+    .text-page-cover .about-us-cover{
+        height: 453px;
+    }
+    /* Text Page */
+
+     /* Contact */
+    .contact-page .contact-info {
+        padding: 40px 0 30px 40px;
+    }
+    .contact-page .contact-info a{
+        margin-bottom: 40px;
+    }
+    .contact-page .contact-form{
+        padding-right: 60px;
+    }
+    .contact-page .contact-form form input {
+        height: 60px;
+    }
+    .map {
+        height: 350px;
+        margin-top: 40px;
+    }
+    .send-message form .button{
+        margin-top: 30px;
+    }
+       /* Contact */
+       /* News Inner */
+       .more-news .news-row .single-news .label{
+           height: 50px;
+       }
+       .more-news .title{
+           margin-bottom: 50px;
+       }
+       .news-inner .images .img {
+        height: 190px;
+    }
+    .image-section{
+        padding: 40px 0 0 0;
+    }
+    .project-detali{
+        padding-top: 60px;
+    }
+    .project-detali .project-row {
+        padding-left: 96px;
+        padding-bottom: 40px;
+    }
+       /* News Inner */
+       /* Service */
+       .service .service-info{
+           padding-left: 40px;
+       }
+       .service .service-text .text{
+           padding-right: 4%;
+       }
+
+       /* Service */
+}
