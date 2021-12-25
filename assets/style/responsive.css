@@ -179,11 +179,22 @@
     .line-50{
         line-height: 48px;
     }
+    .header .logo img{
+        width: 70%;
+    }
     .header .menu-side .wrap_nav .menu li a{
         padding: 0 18px;
+        font-size: 16px;
+    }
+    .header .menu-side .search a{
+        font-size: 16px;
+    }
+    .header .menu-side .lang a{
+        font-size: 16px;
     }
     .header .menu-side .quote a{
         height: 45px;
+        font-size: 16px;
     }
     .header .menu-side .search, .header .menu-side .lang{
         padding: 0 18px;
@@ -254,11 +265,18 @@
 
 
     /*  Contact */
+    .contact-page{
+        margin-top: 50px;
+    }
     .contact-page .contact-info {
         padding: 74px 0 50px 80px;
     }
     .send-message{
         padding: 60px 0;
+    }
+    .contact-page .title h2{
+        font-size: 30px;
+        line-height: 32px;
     }
     /* Contact */
 
@@ -297,20 +315,35 @@
         font-size: 60px;
     }
     /* Text Page */
+    /* 
+        News Inner
+    */
+    .more-news .news-row .single-news .label {
+        height: 52px;
+    }
+    /* 
+        news Inner
+    */
 }
 
-@media (max-width:990px){
+@media (max-width:991px){
     .font-30{
         font-size: 22px;
     }
     .line-42{
         line-height: 32px;
     }
+    .add-font{
+        font-size: 22px;
+    }
     /* 
         Burger Menu
     */
     header{
-        height: 120px;
+        height: 100px;
+    }
+    .header{
+        height: 100px;
     }
    .header .burger-menu{
         position: fixed;
@@ -328,7 +361,7 @@
     }
     .burger-lines{
         position: fixed;
-        top: 51px;
+        top: 44px;
         right: 6%;
         width: 25px;
         height: 30px;
@@ -401,6 +434,11 @@
     .main-banner {
         height: 350px;
         /* margin-top: 120px; */
+    }
+    .main-banner img {
+        width: 125%;
+        height: 100%;
+        left: -25%;
     }
     .tabcontent{
         padding: 40px 30px;
@@ -481,7 +519,13 @@
 
     .search-section {
         padding: 50px 0 80px 0;
-        /* margin-top: 120px; */
+        margin-top: 100px;
+    }
+    .search-section .search .title{
+        margin-bottom: 40px;
+    }
+    .search-section .search .title h3{
+        font-size: 20px;
     }
     /* Search */
 
@@ -511,6 +555,9 @@
     /* Text Page */
 
      /* Contact */
+     .contact-page{
+        margin-top: 40px;
+    }
     .contact-page .contact-info {
         padding: 40px 0 30px 40px;
     }
@@ -522,6 +569,10 @@
     }
     .contact-page .contact-form form input {
         height: 60px;
+        font-size: 24px;
+    }
+    .contact-page .contact-form form input::placeholder{
+        font-size: 18px;
     }
     .map {
         height: 350px;
@@ -564,7 +615,7 @@
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 767px){
     .font-30{
         font-size: 18px;
     }
@@ -598,6 +649,26 @@
     .main-banner .banner-content{
         display: none;
     }
+    .main-banner .banner-content2{
+        display: block;
+        background: transparent;
+        backdrop-filter: blur(0);
+    }
+    .inner-banner .banner-content2 .title{
+        height: 100%;
+        position: relative;
+    }
+    .inner-banner .banner-content2 .title h2{
+        display: none;
+    }
+    .inner-banner .banner-content2 .title a {
+        padding: 7px 16px;
+        font-size: 10px;
+        position: absolute;
+        bottom: 30px;
+        right: 40px;
+    }
+
     .home-about .title h2 {
         line-height: 21px;
     }
@@ -654,6 +725,15 @@
     }
     .project-menu{
         display: none;
+    }
+    .project-blog-menu{
+        display: block;
+    }
+    .projects .project-title .project-blog-menu button{
+        border: 2px solid #DFDFDF;
+        margin: 0 5px;
+        padding: 10px 20px;
+        margin-bottom: 8px;
     }
     .projects .project-card a{
         padding: 0;
@@ -759,6 +839,9 @@
     .testimonial-section .testimonial .title{
         margin-bottom: 30px;
     }
+    .faq .accordion .accordion-item .accordion-body{
+        color:rgba(255,255,255,0.8);
+    }
     /* 
         blog
     */
@@ -788,6 +871,328 @@
     .subscribe-section .subscribe .text{
         display: none;
     }
+    /* 
+        blog
+    */
+    /* 
+        Contact
+    */
+    .contact-page{
+        margin-top: 30px;
+    }
+    .flex-col{
+        flex-direction: column-reverse;
+    }
+    .contact-page .contact-info {
+        padding: 40px 0 40px 20px;
+    }
+    .contact-page .contact-form{
+        padding-right: 0;
+    }
+    .contact-page .contact-info a{
+        margin-bottom: 26px;
+        font-size: 14px;
+    }
+    .contact-page .contact-info a span{
+        margin-right: 16px;
+    }
+    .contact-page .title {
+        margin-bottom: 15px;
+        margin-top: 40px;
+    }
+    .contact-page .title h2{
+        font-size: 28px;
+    }
+    .contact-page .contact-form form input {
+        height: 40px;
+        font-size: 18px;
+    }
+    .contact-page .contact-form form input::placeholder{
+        font-size: 14px;
+    }
+    .contact-page .contact-form form .button{
+        margin-top: 30px;
+    }
+    .contact-page .contact-info a span.icon-pin {
+        font-size: 23px;
+    }
+    .contact-page .contact-info a span.icon-tel {
+        font-size: 17px;
+    }
+    .contact-page .contact-info a span.icon-call {
+        font-size: 17px;
+    }
+    .contact-page .contact-info a span.icon-email {
+        font-size: 15px;
+    }
+    .map{
+        height: 227px;
+        margin-top: 35px;
+    }
+    .send-message .title{
+        margin-bottom: 30px;
+    }
+    .send-message form .message-row .selector{
+        width: 47%;
+    }
+    .send-message form .message-row input{
+        width: 47%;
+        height: 55px;
+    }
+    .send-message form .message-row .selector select{
+        height: 55px;
+    }
+    .send-message form .button {
+        margin-top: 10px;
+    }
+    .send-message form .button button{
+        padding: 10px 20px;
+    }
+    /* 
+        Contact
+    */
+    /* 
+        News Inner
+    */
+        .images{
+            overflow-x: scroll;
+        }
+        .images::-webkit-scrollbar{
+            display: none;
+        }
+        .scroll-slider {
+            display: flex;
+            flex-direction: initial;
+            flex-wrap: nowrap;
+        }
+        .sc-slider{
+            width: 76.4%;
+        }
+        .news-inner .images .img{
+            height: 148px;
+            width: 100%;
+        }
+        .more-news{
+            padding-left: 0;
+            margin-top: 40px;
+        }
+        .more-news .title{
+            margin-bottom: 20px;
+        }
+        .more-news .news-row .single-news .label{
+            font-size: 16px;
+        }
+        .more-news .news-row .single-news .date{
+            margin-bottom: 0;
+        }
+        .more-news .news-row .single-news .see-more a {
+            line-height: 10px;
+            font-size: 12px;
+        }
+        .more-news .news-row .single-news .date span{
+            line-height: 10px;
+            font-size: 12px;
+        }
+        .more-news .news-row .single-news .label{
+            margin-bottom: 0;
+            max-height: 45px;
+        }
+        .more-news .news-row .single-news{
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+        }
+        .more-news .news-row .single-news:last-child{
+            border: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .news-inner .news-inner-column .date span{
+            font-size: 12px;
+        }
+        .news-inner .news-inner-column .text{
+            line-height: 18px;
+        }
+        .news-inner .news-inner-column .date {
+            margin-bottom: 16px;
+            line-height: 10px;
+        }
+        .news-inner .news-inner-column .title {
+            margin-bottom: 10px;
+        }
+        .news-inner .images{
+            margin-top: 0;
+        }
+    /* 
+        News Inner
+    */
+    /* 
+        Project Show
+    */
+    .project-detali .project-row .title h4{
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .project-detali{
+        padding-top: 40px;
+    }
+    .project-detali .project-row {
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+    .project-detali .project-row .title{
+        margin-bottom: 10px;
+    }
+    .project-detali .project-row::after{
+        width: 13px;
+        height: 13px;
+        left: -7px;
+    }
+    .project-detali .project-row .text{
+        font-size: 13px;
+    }
+    .project-detali .project-row .text b{
+        padding: 10px 18px;
+        margin-right: 15px;
+    }
+    .image-section {
+        padding: 30px 0 0 0;
+    }
+    .image-section .images{
+        gap: 10px;
+    }
+    .image-section .images a {
+        width: calc(50% - 5px);
+    }
+    
+    /* 
+        Project Show
+    */
+    /* 
+        Search
+    */
+    .search-section .search .search-input input::placeholder{
+        font-size: 20px;
+    }
+    .search-section .search .search-input input{
+        font-size: 20px;
+        height: 50px;
+    }
+    .search-section .search .search-input{
+        width: 90%;
+    }
+    .search-section .search .search-input button span {
+        font-size: 16px;
+    }
+    .search-section{
+        padding: 40px 0 40px 0;
+    }
+    .search-section .search .title{
+        margin-bottom: 20px;
+    }
+    .search-section {
+        margin-top: 80px;
+    }
+    .search-section .search .title h3{
+        font-size: 14px;
+    }
+    /* 
+        Search
+    */
+    /* 
+        Service Show
+    */
+    .service .service-text .title{
+        margin-bottom: 16px;
+    }
+    .service .service-text .text{
+        padding-right: 0;
+        line-height: 18px;
+    }
+    .service .service-info{
+        margin-top: 40px;
+        padding-left: 0;
+        border-left: none;
+        border-top: 2px solid #D4D4D4;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    .service .service-info span{
+        line-height: 14px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        width: 47%;
+    }
+    .work-style .style .title{
+        margin-bottom: 30px;
+    }
+    .work-style .style .lines .line{
+        flex-direction: column;
+        margin-bottom: 26px;
+    }
+    .work-style .style .lines .line .purple-part span{
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 16px;
+    }
+    .work-style .style .lines .line .text-part{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    /* 
+        Service Show
+    */
+    /* 
+        Text Page
+    */
+    .brick-row-text{
+        justify-content: flex-start;
+    }
+    .brick-row .brick-column .brick {
+        width: 150px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+    .brick-row .brick-column .brick strong {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .brick-row .brick-column .brick span{
+        font-size: 11px;
+    }
+    .brick-row .brick-column {
+        margin: 0px 10px;
+    }
+    .about-us .title{
+        margin-bottom: 25px;
+    }
+    .about-us .description{
+        line-height: 18px;
+    }
+    .team {
+        padding: 40px 0 40px 0;
+    }
+    .team .title{
+        margin-bottom: 30px;
+    }
+    .slide{
+        margin-bottom: 20px;
+    }
+    .text-page-cover .about-us-cover {
+        height: 200px;
+    }
+    .text-page-cover .team-label .team-title {
+        width: 300px;
+        height: 90px;
+        padding-left: 30px;
+        top: -50px;
+    }
+    .text-page-cover .team-label .team-title span{
+        font-size: 20px;
+    }
+    /* 
+        Text Page
+    */
 }
 @media (max-width: 575px){
     .font-30{
@@ -809,7 +1214,7 @@
         line-height: 18px;
     }
     .header .logo img{
-        width: 82%;
+        width: 75%;
     }
     .home-about-text .bricks .brick{
         width: 117px;
@@ -935,8 +1340,129 @@
     .subscribe-section .subscribe .text{
         display: none;
     }
+    /* 
+        Blog
+    */
+    /* 
+        Contact
+    */
+    .contact-page .title h2{
+        font-size: 26px;
+    }
+    .contact-page .contact-form form input {
+        font-size: 16px;
+    }
+    .contact-page .contact-form form input::placeholder{
+        font-size: 12px;
+    }
+    .map{
+        height: 187px;
+        margin-top: 35px;
+    }
+    .send-message form .message-row{
+        flex-direction: column-reverse;
+    }
+    .send-message form .message-row input{
+        width: 100%;
+        height: 42px;
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 15px;
+    }
+    .send-message form .message-row .selector{
+        width: 100%;
+    }
+    .send-message form .message-row .selector select {
+        height: 42px;
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .send-message form .message-row .selector span{
+        font-size: 8px;
+        top: 28%;
+    }
+    .send-message form .button button{
+        margin-top: 30px;
+    }
+    /* 
+        Contact
+    */
+    /* 
+        Q & A
+    */
+        .add-font{
+            font-size: 12px;
+        }
+        .faq .accordion .accordion-item .accordion-body{
+            padding-top: 10px;
+            padding-bottom: 0;
+        }
+        
+    /* 
+        Q & A
+    */
+    /* 
+        News Inner
+    */
+    
+    .news-inner .images .img{
+        height: 160px;
+        width: 100%;
+    }
+    .more-news .news-row .single-news .label{
+        font-size: 14px;
+        line-height: 22px;
+    }
+     
+    /* 
+        News Inner
+    */
+    /* 
+        Search
+    */
+    .search-section .search .search-input input{
+        font-size: 16px;
+        height: 25px;
+    }
+    .search-section .search .search-input input::placeholder{
+        font-size: 16px;
+    }
+    /* 
+        Search
+    */
+    /* 
+        Text Page
+    */
+    .brick-row .brick-column .brick {
+        width: 117px;
+        height: 87px;
+        margin-bottom: 12px;
+    }
+   
+    .brick-row .brick-column {
+        margin: 0px 6px;
+    }
+    .text-page-cover .about-us-cover {
+        height: 115px;
+    }
+    .text-page-cover .team-label .team-title {
+        width: 124px;
+        height: 39px;
+        padding-left: 17px;
+        top: -25px;
+    }
+    .text-page-cover .team-label .team-title span{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    /* 
+        Text Page
+    */
 }
 @media (max-width: 420px){
+    .header .logo img{
+        width: 82%;
+    }
      .projects .project-card a .image .cover {
         position: absolute;
         z-index: 2;
@@ -952,5 +1478,13 @@
         height: 151px;
         width: 150%;
         left: -50%;
+    }
+    .main-banner2{
+        width: 100%;
+        height: 151px;
+        left: 0;
+    }
+    .news-inner .images .img{
+        height: 128px;
     }
 }

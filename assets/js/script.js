@@ -23,6 +23,19 @@ $(document).ready(function(){
       slidesToScroll: 1,
       autoplay: true,
       arrows:false,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            rows: 2
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
   });
 });
 
